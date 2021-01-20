@@ -6,15 +6,12 @@ div{
 .header{
     display: flex;
     justify-content: space-between;
-
 }
 
 .menu{
     display: flex;
     margin: 40px 50px;
-    align-items: center;
-    
-   
+    align-items: center
 }
 
 .menu li{
@@ -28,3 +25,241 @@ div{
     padding: 10px;
     border-radius: 20px ;
 }
+
+.info {
+/*background-color: green;*/
+text-align: center;
+}
+
+.avatar{
+    width: 250px;
+    border-radius: 125px;
+}
+
+.rodape_info{
+    /*background-color: blue;*/
+    text-align: center;
+}
+
+.img_rod{
+    width: 700px;
+}
+
+.perfil{
+    margin-top: -4px;
+    background-color: rgb(134, 26, 184);
+    text-align: center;
+    padding: 40px 40px;
+    padding-bottom: 160px;
+}
+
+.perfil span{
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: "eurostile", sans-serif;
+}
+
+.perfil p{
+    line-height: 30px;
+    font-family: "europa", sans-serif;
+    color: white;
+}
+
+.perfil_texto {
+    margin: auto;
+    text-align: center;
+    width: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 60px;
+    box-sizing: border-box;
+    line-height: 50px;
+}
+
+.perfil_texto p{
+    line-height: 40px;
+}
+
+/**************Apresentação serviços*************/
+
+.colunas {
+    
+    width: 80%;
+    margin: -150px auto;
+    display: flex;
+    border-radius: 25px;
+    margin-bottom: 10px;
+
+}
+
+.div1{
+    align-items: center;
+    display: block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 35%;
+    box-sizing: border-box;
+    padding: 35px;
+    border-radius: 25px 0 0 25px;
+    border-right: 1px solid grey;
+    background-color: white;
+    border-top: 1px solid rgb(219, 219, 219);
+    border-right: 1px solid rgb(219, 219, 219);;
+    border-left: 1px solid rgb(219, 219, 219);;
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.div2{
+    align-items: center;
+    display: block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 35%;
+    box-sizing: border-box;
+    padding: 35px;
+    border-right: 1px solid grey;
+    background-color: white;
+    border-top: 1px solid rgb(219, 219, 219);
+    border-right: 1px solid rgb(219, 219, 219);;
+    border-left: 1px solid rgb(219, 219, 219);;
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.div3{
+    align-items: center;
+    display: block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 35%;
+    box-sizing: border-box;
+    padding: 35px;
+    border-radius: 0 25px 25px 0;
+    border-right: 1px solid grey;
+    background-color: white;
+    border-top: 1px solid rgb(219, 219, 219);
+    border-right: 1px solid rgb(219, 219, 219);;
+    border-left: 1px solid rgb(219, 219, 219);;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    
+}
+
+.subtitulo{
+    color: rgb(134, 26, 184);
+}
+
+.div1 ul{
+    
+    
+    margin-left: -30px;
+}
+
+.div1 li{
+    vertical-align: initial;
+    list-style: none;
+    box-sizing: inherit;
+}
+
+.div2 ul{
+    
+   
+   margin-left: -30px;
+}
+
+.div2 li{
+    vertical-align: initial;
+    list-style: none;
+    box-sizing: inherit;
+}
+
+.div3 ul{
+    
+  
+   margin-left: -30px;
+}
+
+.div3 li{
+    vertical-align: initial;
+    list-style: none;
+    box-sizing: inherit;
+    
+}
+
+/****************Grade***************************/
+.container-grade{
+    text-align: center;
+    margin-top: 150px;
+
+}
+
+.container-grade p{
+    margin-bottom: 100px;
+}
+.grade1{
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.grade1 div{
+    background-color: blue;
+    height: 250px;
+    flex:1;
+    margin: 10px;
+    border-radius: 20px;
+    background-size: cover;
+    
+}
+
+.grade2{
+
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-bottom: 5px;
+    width: 80%;
+    text-align: center;
+}
+
+.grade2 div{
+    background-color: blue;
+    height: 250px;
+    flex:1;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+
+.botao{
+    margin-top: 80px;
+    padding: 10px;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 100px;
+    cursor: pointer;
+
+}
+
+   
+   
+    
+   
+   
+   
+   
+
+    
+
+
+
+
+    
