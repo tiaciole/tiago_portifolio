@@ -6,14 +6,9 @@ function Apresentação (props){
         <section className = "perfil">
 
             <div className ="perfil_texto">
-                <span>Olá, sou Tiago. Prazer em conhecê-lo.</span>
+                <span>{props.apres1}</span>
 
-                    <p>Desde o início da minha jornada como designer freelance há quase 10 anos,  
-                    fiz trabalho remoto para agências, dei consultoria para startups e colaborei
-                    com pessoas talentosas para criar produtos digitais para uso comercial 
-                    e consumidor. Estou silenciosamente confiante, naturalmente curioso
-                    e trabalhando perpetuamente para melhorar minhas habilidades,
-                    um problema de design por vez.</p>
+                    <p>{props.apres2}</p>
             </div>
 
         </section>

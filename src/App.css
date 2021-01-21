@@ -193,48 +193,58 @@ text-align: center;
 .container-grade{
     text-align: center;
     margin-top: 150px;
+    
+   
 
 }
 
 .container-grade p{
+    margin: auto;
     margin-bottom: 100px;
+    
 }
 .grade1{
-    background-color: yellow;
-    display: flex;
-    flex-direction: row;
     margin: auto;
-    width: 80%;
-    text-align: center;
-}
-
-.grade1 div{
-    background-color: blue;
-    height: 250px;
-    flex:1;
-    margin: 10px;
-    border-radius: 20px;
-    background-size: cover;
+    padding: 10px;
+    max-width: 1208px;
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px
     
 }
 
-.grade2{
-
-    background-color: yellow;
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-    margin-bottom: 5px;
-    width: 80%;
+.grade1 div{
+    border-radius: 20px;
     text-align: center;
+    height: 250px;
+    background-size: cover;
+  
 }
 
-.grade2 div{
-    background-color: blue;
-    height: 250px;
-    flex:1;
-    margin: 10px;
-    border-radius: 20px;
+.gride1{
+    background-image: url('/src/Africa.jpg');
+    
+}
+
+.gride2{
+    background-image: url('/src/Alemanha.jpg');
+}
+
+.gride3{
+    background-image: url('/src/Berlim.jpg');
+}
+
+.gride4{
+    background-image: url('/src/Japão.jpg');
+}
+
+.gride5{
+    background-image: url('/src/New-York.jpg');
+}
+
+.gride6{
+    background-image: url('/src/França.jpg');
 }
 
 
@@ -246,8 +256,131 @@ text-align: center;
     padding-right: 20px;
     margin-bottom: 100px;
     cursor: pointer;
+   
 
 }
+
+.empresas{
+    margin: 100px auto;
+    max-width: 600px;
+    text-align: center;
+    font-size: medium;
+
+}
+
+.grade_empresas{
+    display:grid;
+    margin: auto;
+    padding: 10px;
+    max-width: 1208px;
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    margin-bottom: 150px;
+
+}
+
+.grade_empresas div{
+    border-radius: 20px;
+    text-align: center;
+    height: 200px;
+    
+    
+}
+
+.empresa1{
+    background-image: url('/src/Apple.png');
+    background-size: cover;
+}
+
+.empresa2{
+    background-image: url('/src/Adidas.png');
+    background-size: cover;
+}
+
+.empresa3{
+    background-image: url('/src/Accenture.png');
+    background-size: cover;
+}
+
+.empresa4{
+    background-image: url('/src/Google.png');
+    background-size: cover;
+}
+
+.empresa5{
+    background-image: url('/src/Harley.png');
+    background-size: cover;
+}
+
+.empresa6{
+    background-image: url('/src/Nike.png');
+    background-size: cover;
+}
+
+.empresa7{
+    background-image: url('/src/Puma.png');
+    background-size: cover;
+}
+
+.empresa8{
+    background-image: url('/src/Lacoste.png');
+    background-size: cover;
+}
+
+
+/**********************Grade Startup***************/
+
+.grade-startup{
+    background-color: blue;
+    display:grid;
+    margin: -150px auto;
+    padding: 10px;
+    max-width: 1200px;
+    max-height: 1000px;
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-gap: 20px;
+    margin-bottom: 150px;
+
+}
+
+.grade-startup div{
+    height: 360px;
+    border-radius: 20px;
+}
+
+.startup1{
+    
+
+}
+
+.startup2{
+    background-color: blue;
+    
+    
+    
+}
+
+.startup3{
+    background-color: hotpink;
+}
+
+.startup4{
+    background-color: indigo;
+}
+
+.startup5{
+    background-color: lightcoral;
+}
+
+.startup6{
+    background-color: brown;
+}
+
+
 
    
    

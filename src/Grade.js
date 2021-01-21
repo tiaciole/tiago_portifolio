@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
 
-import Vegano from './Vegano.jpg'
+
 
 function Grade(){
     return(
@@ -11,35 +11,33 @@ function Grade(){
 
             <section className = "grade1">
 
-                <div>
-                
+                <div className = "gride1">
+                    <div className = "black-box"></div>
                 </div>
 
-                <div className ="div1" style={{backgroundImage: `url(${Vegano})`}}>
-                    grade 2
+                <div className = "gride2" >
+                    Alemanha
                 </div>
 
-                <div>
-                    grade 3
-                </div>
-            </section>
-
-            <section className = "grade2">
-
-                <div>
-                    grade 4
+                <div className = "gride3">
+                    Berlim
                 </div>
 
-                <div>
-                    grade 5
+                <div className = "gride4">
+                    Japão
                 </div>
 
-                <div>
-                    grade 6
+                <div className = "gride5">
+                    New-York
+                </div>
+
+                <div className = "gride6">
+                    França
                 </div>
 
             </section>
 
+          
             <button className = "botao"> (Logo) Veja mais na Dribbble</button>
 
             
