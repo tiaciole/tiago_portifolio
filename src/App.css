@@ -223,28 +223,28 @@ text-align: center;
 }
 
 .gride1{
-    background-image: url('/src/Africa.jpg');
+    background-image: url('/src/imagens/Africa.jpg');
     
 }
 
 .gride2{
-    background-image: url('/src/Alemanha.jpg');
+    background-image: url('/src/imagens/Alemanha.jpg');
 }
 
 .gride3{
-    background-image: url('/src/Berlim.jpg');
+    background-image: url('/src/imagens/Berlim.jpg');
 }
 
 .gride4{
-    background-image: url('/src/Japão.jpg');
+    background-image: url('/src/imagens/Japão.jpg');
 }
 
 .gride5{
-    background-image: url('/src/New-York.jpg');
+    background-image: url('/src/imagens/New-York.jpg');
 }
 
 .gride6{
-    background-image: url('/src/França.jpg');
+    background-image: url('/src/imagens/França.jpg');
 }
 
 
@@ -290,42 +290,42 @@ text-align: center;
 }
 
 .empresa1{
-    background-image: url('/src/Apple.png');
+    background-image: url('/src/imagens/Apple.png');
     background-size: cover;
 }
 
 .empresa2{
-    background-image: url('/src/Adidas.png');
+    background-image: url('/src/imagens/Adidas.png');
     background-size: cover;
 }
 
 .empresa3{
-    background-image: url('/src/Accenture.png');
+    background-image: url('/src/imagens/Accenture.png');
     background-size: cover;
 }
 
 .empresa4{
-    background-image: url('/src/Google.png');
+    background-image: url('/src/imagens/Google.png');
     background-size: cover;
 }
 
 .empresa5{
-    background-image: url('/src/Harley.png');
+    background-image: url('/src/imagens/Harley.png');
     background-size: cover;
 }
 
 .empresa6{
-    background-image: url('/src/Nike.png');
+    background-image: url('/src/imagens/Nike.png');
     background-size: cover;
 }
 
 .empresa7{
-    background-image: url('/src/Puma.png');
+    background-image: url('/src/imagens/Puma.png');
     background-size: cover;
 }
 
 .empresa8{
-    background-image: url('/src/Lacoste.png');
+    background-image: url('/src/imagens/Lacoste.png');
     background-size: cover;
 }
 
@@ -350,12 +350,21 @@ text-align: center;
 .grade-startup div{
     height: 360px;
     border-radius: 20px;
+    box-sizing: inherit;
 }
 
 .startup1{
-    
+    background-color: brown;
+    }
+    .shadow{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 200px;  
+    }
 
-}
+    .divd{
+        background-color: yellow;
+    }
 
 .startup2{
     background-color: blue;

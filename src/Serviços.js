@@ -5,8 +5,8 @@ function Serviços(){
     return(
         <div className ="colunas">
 
-            <div className ="div1">
-              <img src="" alt=""/>
+            <div className ="div1"> 
+              <img src="" alt=""/> {/* colocar imagem */} 
               <h3>Designer</h3>
               <br/>              
               <p className = "serviço_descrição">Eu valorizo ​​uma estrutura de conteúdo simples, padrões de design limpos e interações atenciosas.</p>

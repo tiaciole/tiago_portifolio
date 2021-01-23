@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css'
+import shadow from './imagens/shadow.png'
 
 
 
@@ -9,8 +10,8 @@ function Startup(){
         <div className = "grade-startup">
 
             <div className = "startup1">
-                <div>
-                <img  src="./rover.png"alt=""/>
+                <div className = "divd">
+                <img className = "shadow"  src={shadow} alt=""/>
                 </div>
             </div>
 
