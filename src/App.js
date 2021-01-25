@@ -9,6 +9,7 @@ import Grade from './Grade'
 import Empresas from './Empresas'
 import Grade_Empresa from './Grade_Empresa'
 import Startup from './Startup'
+import Chamada from './Chamada'
 
 
 function App(){
@@ -41,6 +42,8 @@ function App(){
             divertido tentar projetar e construir o meu próprio."/>
 
             <Startup/>
+
+            <Chamada interessado = "Interessado em Colaborar ou investir" interessado2 = "Estou sempre aberto para discutir o trabalho de design de produto ou oportunidades de parceria."/>
 
            
             
