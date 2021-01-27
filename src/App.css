@@ -27,7 +27,6 @@ div{
 }
 
 .info {
-/*background-color: green;*/
 text-align: center;
 }
 
@@ -438,7 +437,61 @@ text-align: center;
 
 }
 
+/**********************mobile**************/
 
+@media screen and (max-width:1200px){
+
+    .info{
+        background-color: brown;
+        width: 80%;
+        margin: auto;
+    }
+
+    .rodape_info{
+        background-color: green;
+        max-width: 100%;
+        margin: auto;
+        padding: 10px;
+
+    }
+
+    .img_rod{
+        max-width: 100% ;
+    }
+
+    .perfil{
+        background-color: green;
+        max-width: 100%;
+        
+        margin: auto;
+        padding: 10px;
+    }
+
+    .perfil_texto{
+        width: 80%;
+        padding-bottom: 160px;
+    }
+
+    .colunas{
+        width: auto;
+    }
+    .grade1{
+        display: block;
+        max-width: 100%;
+        margin-bottom: 5px;
+        margin:auto;
+
+    }
+
+    .gride1{
+    
+        max-width: 80%;
+        height: 500px;
+    
+
+}
+
+}
 
    
       
