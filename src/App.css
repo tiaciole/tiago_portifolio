@@ -208,7 +208,7 @@ text-align: center;
     max-width: 1208px;
     background-color: yellow;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 389px 389px 389px;
     grid-gap: 20px
     
 }
@@ -444,27 +444,30 @@ text-align: center;
     .info{
         background-color: brown;
         width: 80%;
+        height: 500px;
         margin: auto;
     }
 
     .rodape_info{
-        background-color: green;
+        
         max-width: 100%;
         margin: auto;
-        padding: 10px;
+        
+
 
     }
 
     .img_rod{
         max-width: 100% ;
+        margin-top: -158px ;
     }
 
     .perfil{
         background-color: green;
         max-width: 100%;
-        
         margin: auto;
-        padding: 10px;
+        padding: 20px;
+        
     }
 
     .perfil_texto{
@@ -475,22 +478,6 @@ text-align: center;
     .colunas{
         width: auto;
     }
-    .grade1{
-        display: block;
-        max-width: 100%;
-        margin-bottom: 5px;
-        margin:auto;
-
-    }
-
-    .gride1{
-    
-        max-width: 80%;
-        height: 500px;
-        margin-top: 10px;
-    
-
-}
 
 }
 
